@@ -12,7 +12,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "composer.json"
   ],
   "publishConfig": {
     "access": "public"
