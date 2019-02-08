@@ -1,0 +1,14 @@
+{
+    "name": "newism/common",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Leevi Graham",
+            "email": "leevi@newism.com.au"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
