@@ -1,14 +1,40 @@
 {
     "name": "newism/common",
-    "description": "",
-    "type": "library",
+    "description": "common",
+    "type": "craft-plugin",
+    "version": "0.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "common"
+    ],
+    "support": {
+        "docs": "https://github.com/newism/lerna/packages/common/blob/master/README.md",
+        "issues": "https://github.com/newism/common/issues"
+    },
+    "license": "MIT",
     "authors": [
         {
-            "name": "Leevi Graham",
-            "email": "leevi@newism.com.au"
+            "name": "Newism",
+            "homepage": "https://newism.com.au"
         }
     ],
     "require": {
-        "monolog/monolog": "^1.24"
+        "craftcms/cms": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "newism\\common\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "newism-common",
+        "handle": "newism-common",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/lerna/packages/common/master/CHANGELOG.md",
+        "class": "newism\\common\\Common"
     }
 }

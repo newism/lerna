@@ -9,9 +9,12 @@
   "main": "lib/common.js",
   "directories": {
     "lib": "lib",
+    "src": "src",
+    "doc": "doc",
     "test": "__tests__"
   },
   "files": [
+    "src",
     "lib",
     "composer.json"
   ],
