@@ -1,0 +1,1 @@
+console.info("@newism/common has been imported");

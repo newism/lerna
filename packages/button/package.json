@@ -26,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/newism/lerna/issues"
   },
-  "homepage": "https://github.com/newism/lerna#readme"
+  "homepage": "https://github.com/newism/lerna#readme",
+  "dependencies": {
+  }
 }
